@@ -12,7 +12,7 @@
 
 #### 一. 基本使用
 
-直接将BrightMapCrash-release.aar文件放到 工程的libs目录,并在 app下的build.gradle中引用，如下：
+直接将libbreakpad-release.aar文件放到 工程的libs目录,并在 app下的build.gradle中引用，如下：
 
 ```groovy
 implementation(files('libs/libbreakpad-release.aar'))
