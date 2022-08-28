@@ -26,9 +26,9 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         // 异常捕获模块初始化
-        BMCrashManager.getInstance().init(this);
+        CrashManager.getInstance().init(this);
         // 将文件从catch目录中转存到Download目录中(可选,需要手动分析的时候加上这句)
-        BMCrashManager.saveStackToDownload(this);
+        CrashManager.saveStackToDownload(this);
     }
 }
 ```
@@ -119,7 +119,7 @@ java.lang.ArithmeticException: divide by zero    // 崩溃的原因
 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
 ```
 
-崩溃代码信息: BMCrashManager.java   Java Crash是发生在  67行  除0异常
+崩溃代码信息: CrashManager.java   Java Crash是发生在  67行  除0异常
 
 ![java_crash_code](java_crash_code.png)
 
