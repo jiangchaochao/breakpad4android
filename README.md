@@ -125,7 +125,7 @@ java.lang.ArithmeticException: divide by zero    // 崩溃的原因
 
 MainActivity.java   Java 崩溃日志是在  20行，调用了上图中的方法
 
-![java_crash_code0](C:\Users\jiangchao\Desktop\java_crash_code0.png)
+![java_crash_code0](java_crash_code0.png)
 
 ###### 2.1.2 混淆
 
@@ -190,7 +190,7 @@ Android studio proGuard路径：Android/Sdk/tools/proguard/bin/proguardgui.bat
 
 在选择好mapping文件以及粘贴好崩溃日志后，点击右下角ReTrace按钮：如下图：
 
-![hunxiao_java_crash](C:\Users\jiangchao\Desktop\hunxiao_java_crash.png)
+![hunxiao_java_crash](hunxiao_java_crash.png)
 
 结合上面代码异常的地方，是可以一一对应的，到此还原了Java端混淆后日志解密工作。
 
