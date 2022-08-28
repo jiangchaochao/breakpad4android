@@ -1,0 +1,20 @@
+com.jiangc.libbreakpad.CrashManager
+com.jiangc.libbreakpad.R
+com.jiangc.libbreakpad.JniCrashMonitor
+com.jiangc.libbreakpad.CrashManager: java.lang.String mPath
+com.jiangc.libbreakpad.CrashManager: com.jiangc.libbreakpad.CrashManager instance
+com.jiangc.libbreakpad.CrashManager: com.jiangc.libbreakpad.JniCrashMonitor jniCrashMonitor
+com.jiangc.libbreakpad.CrashManager: void lambda$saveStackToDownload$0(android.content.Context)
+com.jiangc.libbreakpad.R: R()
+com.jiangc.libbreakpad.CrashManager: void saveFile(android.content.Context,android.net.Uri,java.lang.String)
+com.jiangc.libbreakpad.CrashManager: void testJavaCrash()
+com.jiangc.libbreakpad.CrashManager: void onCrash(java.lang.String)
+com.jiangc.libbreakpad.JniCrashMonitor: void init(java.lang.String)
+com.jiangc.libbreakpad.CrashManager: com.jiangc.libbreakpad.CrashManager getInstance()
+com.jiangc.libbreakpad.JniCrashMonitor: void testNativeCrash()
+com.jiangc.libbreakpad.CrashManager: void init(android.content.Context,java.lang.String)
+com.jiangc.libbreakpad.CrashManager: CrashManager()
+com.jiangc.libbreakpad.CrashManager: void saveStackToDownload(android.content.Context)
+com.jiangc.libbreakpad.CrashManager: void init(android.content.Context)
+com.jiangc.libbreakpad.CrashManager: android.net.Uri insertFileIntoMediaStore(android.content.Context,java.lang.String,java.lang.String)
+com.jiangc.libbreakpad.CrashManager: void testNativeCrash()

@@ -1,0 +1,52 @@
+# compiler: R8
+# compiler_version: 3.2.74
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.0"}
+# pg_map_id: de0817f
+# pg_map_hash: SHA-256 de0817fbed6035f8951e66ba58d470cfa8b8ab9ef28d5151b91c011d25dd1af2
+com.jiangc.libbreakpad.BuildConfig -> a.a:
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String LIBRARY_PACKAGE_NAME -> b
+    1:1:void <init>():6:6 -> <init>
+com.jiangc.libbreakpad.CrashManager -> com.jiangc.libbreakpad.CrashManager:
+    1:1:void <init>():29:29 -> <init>
+    2:3:void <init>():26:27 -> <init>
+    1:8:com.jiangc.libbreakpad.CrashManager getInstance():33:40 -> getInstance
+    1:7:void init(android.content.Context):47:53 -> init
+    8:9:void init(android.content.Context,java.lang.String):58:59 -> init
+    1:14:android.net.Uri insertFileIntoMediaStore(android.content.Context,java.lang.String,java.lang.String):142:155 -> insertFileIntoMediaStore
+    1:29:void lambda$saveStackToDownload$0(android.content.Context):92:120 -> lambda$saveStackToDownload$0
+    30:43:void lambda$saveStackToDownload$0(android.content.Context):109:122 -> lambda$saveStackToDownload$0
+    44:64:void lambda$saveStackToDownload$0(android.content.Context):113:133 -> lambda$saveStackToDownload$0
+    1:26:void saveFile(android.content.Context,android.net.Uri,java.lang.String):165:190 -> saveFile
+    27:46:void saveFile(android.content.Context,android.net.Uri,java.lang.String):171:190 -> saveFile
+    47:57:void saveFile(android.content.Context,android.net.Uri,java.lang.String):180:190 -> saveFile
+    58:66:void saveFile(android.content.Context,android.net.Uri,java.lang.String):184:192 -> saveFile
+    1:46:void saveStackToDownload(android.content.Context):91:136 -> saveStackToDownload
+    1:1:void testJavaCrash():67:67 -> testJavaCrash
+    1:2:void testNativeCrash():74:75 -> testNativeCrash
+com.jiangc.libbreakpad.ICrashCallback -> a.b:
+com.jiangc.libbreakpad.JavaCrashMonitor -> a.c:
+    android.content.Context mContext -> b
+    java.lang.Thread$UncaughtExceptionHandler defaultUncaughtExceptionHandler -> e
+    java.lang.String TAG -> a
+    com.jiangc.libbreakpad.ICrashCallback mCallback -> d
+    java.lang.String mPath -> c
+    1:1:void <init>():26:26 -> <init>
+    1:3:void init(android.content.Context,java.lang.String,com.jiangc.libbreakpad.ICrashCallback):31:33 -> a
+    4:11:void init(android.content.Context):37:44 -> a
+    12:19:java.lang.String renameFile(java.lang.String,java.lang.String):82:89 -> a
+    1:20:void uncaughtException(java.lang.Thread,java.lang.Throwable):50:69 -> uncaughtException
+    21:25:void uncaughtException(java.lang.Thread,java.lang.Throwable):66:70 -> uncaughtException
+    26:29:void uncaughtException(java.lang.Thread,java.lang.Throwable):69:72 -> uncaughtException
+com.jiangc.libbreakpad.JniCrashMonitor -> com.jiangc.libbreakpad.JniCrashMonitor:
+    android.content.Context mContext -> a
+    com.jiangc.libbreakpad.ICrashCallback mCallback -> c
+    java.lang.String mPath -> b
+    java.lang.String TAG -> d
+    1:1:void <clinit>():19:19 -> <clinit>
+    1:1:void <init>():12:12 -> <init>
+    1:3:void init(android.content.Context,java.lang.String,com.jiangc.libbreakpad.ICrashCallback):29:31 -> a
+    4:8:void init(android.content.Context):40:44 -> a
+    9:9:void callback(java.lang.String):63:63 -> a
